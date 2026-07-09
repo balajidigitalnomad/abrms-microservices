@@ -1,0 +1,6 @@
+rootProject.name = 'abrms-microservices'
+
+include 'abrms-user-service'
+include 'abrms-restaurant-service'
+include 'abrms-eureka-server'
+include 'abrms-api-gateway'
