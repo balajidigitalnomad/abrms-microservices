@@ -54,7 +54,25 @@ This project has been designed to provide hands-on implementation of real-world 
              ▼
       Kafka Consumer
 ```
+## SCREEN SHOTS - All in One MicroService / Spring Cloud 
+---
+### MODULE 1 : EUREKA SERVER
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b35ee6cb-d660-410d-923a-7a16b75cb22a" />
 
+### MODULE 2 : API Gateway - Load Balancing / 2 Different MicroService masked by 8080 [UserService:8081 and RestaturantService:8082]
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/708f742f-067c-476b-9625-1cd497ce0a7c" />
+
+### MODULE 3 : OpenFeign : MicroService to MicroService Communication
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/812e19eb-5852-4d80-ae5c-f35ea54b2354" />
+
+### MODULE 4 : Resilience4j : Circuit-Breaker to call Callback methods if Microservice goes abnormal or Network fails.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3f02401d-e68e-429d-b024-7e4fc2737bad" />
+
+### MODULE 5 : Kafka : Message Broker Event Creator / Producer / Topics-EventHolder / Consumer
+<img width="904" height="510" alt="image" src="https://github.com/user-attachments/assets/a1a4b7e6-8057-4f0f-8d49-a5628f58d97c" />
+
+### MODULE 6 : Swagger  
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e79c0a26-da00-470a-b292-d0e37465fb53" />
 ---
 
 # 📂 Gradle Multi-Module Structure
