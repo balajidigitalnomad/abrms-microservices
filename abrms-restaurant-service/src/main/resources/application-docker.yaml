@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: abrms-restaurant-service
+
+  datasource:
+    url:jdbc:mysql://abrms-mysql:3306/abrms-restaurant-db
+    username:root
+    password:admin
+
+  jpa:
+    hibernate:
+      ddl-auto:update
+      show-sql:true
+    properties:
+        hibernate:
+          format-sql:true
+
+server:
+  port:8082
+
+springdoc:
+  api-docs:
+    path=/api-docs
+  swagger-ui:
+    path=/swagger-ui.html
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://abrms-eureka-container:8761/eureka

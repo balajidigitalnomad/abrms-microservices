@@ -1,0 +1,25 @@
+server:
+  port:8080
+
+spring:
+  application:
+    name: abrms-api-gateway
+
+  cloud:
+    gateway:
+      mvc:
+        routes:
+          - id: user-service
+            uri: lb://ABRMS-USER-SERVICE
+            predicates:
+              - Path=/api/users/**
+
+          - id: restaurant-service
+            uri: lb://ABRMS-RESTAURANT-SERVICE
+            predicates:
+              - Path=/api/foods/**
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://abrms-eureka-container:8761/eureka
